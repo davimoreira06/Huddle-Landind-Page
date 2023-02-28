@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Nexa';
+    src: url('Nexa-Heavy.ttf') format('truetype'),
+    url('Nexa-ExtraLight.ttf') format('truetype');
+}
+
+* {
+    font-family: 'Nexa', Times, serif;
+}

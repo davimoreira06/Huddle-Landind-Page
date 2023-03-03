@@ -87,7 +87,7 @@ h1 {
     text-align: center;
 }
 
-.section-topo {
+.section-top {
     margin-bottom: 8vh;
 }
 
@@ -98,7 +98,7 @@ h1 {
 .section-com-msg {
     display: flex;
     justify-content: space-between;
-    margin-top: 10vh;
+    margin-top: 14vh;
 }
 
 .communities, .messages {
@@ -190,7 +190,7 @@ h2 {
     bottom: 14vh;
 }
 
-.meio-final {
+.mid-final {
     text-align: center;
     margin-top: 20vh;
 }
@@ -198,10 +198,52 @@ h2 {
 .bg-footer-img {
     width: 100%;
     margin-top: 18vh;
+    position: relative;
+    top: 8px;
 }
 
 .div-final-footer {
-    background-color: #08242c;
     width: 100%;
-    height: 100%;
+    height: 70vh;
+    background-color: #042530;
+}
+
+.footer-left {
+    margin-left: 13vw;
+    position: relative;
+    top: 13vh;
+}
+
+.p-footer {
+    color: white;
+    width: 27vw;
+    font-family: 'Nexa-Light', Times, serif;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.div-ph {
+    display: -webkit-box;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.div-em {
+    display: -webkit-box;
+    margin-left: 20px;
+}
+
+.p-ph-em {
+    font-family: 'Nexa-Light', Times, serif;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    bottom: 3px;
+    left: 25px;
+    color: white;
+}
+
+.social-midias {
+    margin-top: 55px;
 }

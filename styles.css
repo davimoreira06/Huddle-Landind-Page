@@ -305,3 +305,54 @@ input {
     opacity: 0.9;
 }
 
+@media screen and (max-width: 1250px) {
+
+    .section-com-msg {
+        display: block;
+    }
+
+    .div-com {
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 12vh;
+    }
+
+    .div-msg {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .communities {
+        position: relative;
+        right: 65px;
+    }
+
+    .messages {
+        position: relative;
+        right: 75px;
+    }
+
+    .section-grow {
+        display: block;
+    }
+
+    .grow-img {
+        position: relative;
+        bottom: 45vh;
+        left: 30vw;
+    }
+
+    .div-grow {
+        position: relative;
+        position: relative;
+        top: 30vh;
+        left: 25vw;
+    }
+
+
+
+
+
+
+}
+

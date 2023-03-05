@@ -15,6 +15,11 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -93,6 +98,10 @@ h1 {
 
 .div-screens {
     text-align: center;
+}
+
+.screens {
+    width: 75%;
 }
 
 .section-com-msg {
@@ -305,7 +314,7 @@ input {
     opacity: 0.9;
 }
 
-@media screen and (max-width: 1250px) {
+@media (max-width: 1250px) {
 
     .section-com-msg {
         display: block;
@@ -344,15 +353,98 @@ input {
 
     .div-grow {
         position: relative;
-        position: relative;
-        top: 30vh;
+        top: 22vh;
         left: 25vw;
     }
 
+    h2 {
+        position: relative;
+        left: 40px;
+    }
 
+    .p-3 {
+        text-align: center;
+        position: relative;
+        right: 3%;
+    }
 
+    .section-flowing {
+        display: block;
+    }
 
+    .flowing-img {
+        position: relative;
+        left: 30vw;
+    }
+
+    .div-flowing {
+        position: relative;
+        left: 29vw;
+        bottom: 6vh;
+    }
+
+    .div-flowing p {
+        position: relative;
+        left: 8%;
+        width: 30%;
+    }
+
+    .section-users {
+        display: block;
+    }
+
+    .users-img {
+        position: relative;
+        bottom: 22vh;
+        left: 30vw;
+    }
+
+    .div-users {
+        position: relative;
+        top: 40vh;
+        left: 25vw;
+    }
+
+    .div-users p {
+        position: relative;
+        right: 7%;
+    }
+
+    .mid-final {
+        margin-top: 30vh;
+    }
+}
+
+@media (max-width: 1000px)  {
+    .div-grow p {
+        position: relative;
+        left: 1%;
+    }
+
+    .div-flowing  p {
+        position: relative;
+        left: 14%;
+    }
+
+    .div-users p {
+        position: relative;
+        right: 3%;
+    }
+}
+
+@media (max-width: 450px) {
+    .logo {
+        width: 140px;
+        margin-top: 42px;
+        margin-left: 30px;
+    }
+
+    .btn-nav {
+        width: 115px;
+        height: 35px;
+        margin-top: 30px;
+        margin-right: 15px;
+    }
 
 
 }
-

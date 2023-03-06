@@ -204,8 +204,6 @@ h2 {
     margin-top: 20vh;
 }
 
-
-
 .bg-footer-img {
     width: 100%;
     margin-top: 18vh;
@@ -307,7 +305,6 @@ input {
     color: white;
     width: 8vw;
     margin-left: 30px;
-
 }
 
 .btn-subscribe:hover {
@@ -441,9 +438,153 @@ input {
 
     .btn-nav {
         width: 115px;
-        height: 35px;
-        margin-top: 30px;
-        margin-right: 15px;
+        height: 30px;
+        margin-top: 35px;
+        margin-left: 21vw;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 31px;
+    }
+
+    .div-p p {
+        width: 71vw;
+        position: relative;
+        left: 14vw;
+    }
+
+    .btn-get-start {
+        width: 195px;
+        height: 40px;
+        font-size: 13px;
+    }
+
+    .screens {
+        width: 85%;
+    }
+
+    .grow-img {
+        width: 350px;
+        position: relative;
+        left: 3vw;
+        bottom: 45vh;
+    }
+
+    .div-grow {
+        left: 18vw;
+        position: relative;
+    }
+
+    h2 {
+        position: relative;
+        left: -12vw;
+        font-size: 35px;
+    }
+
+    .div-grow p {
+        width: 80vw;
+        position: relative;
+        left: -20vw;
+    }
+
+    .flowing-img {
+        width: 350px;
+        position: relative;
+        left: 5vw;
+        bottom: 10vh;
+    }
+
+    .div-flowing {
+        position: relative;
+        left: 28vw;
+    }
+
+    .div-flowing h2 {
+        width: 120vw;
+        position: relative;
+        left: -21vw;
+        font-size: 30px;
+    }
+
+    .div-flowing p {
+        width: 80vw;
+        position: relative;
+        left: -18vw;
+    }
+
+    .users-img {
+        width: 350px;
+        position: relative;
+        left: 5vw;
+        bottom: 22vh;
+    }
+
+    .div-users {
+        position: relative;
+        left: 17vw;
+    }
+
+    .div-users h2 {
+        position: relative;
+        left: -4vw;
+    }
+
+    .div-users p {
+        position: relative;
+        width: 80vw;
+        left: -20vw;
+    }
+    
+    .mid-final h2 {
+        margin-left: 20vw;
+        width: 79vw;
+    }
+
+    .bg-footer-img {
+        position: relative;
+        top: 11vh;
+    }
+
+    .div-final-footer {
+        display: block;
+        position: relative;
+        height: 105vh;
+    }
+
+    .footer-right {
+        position: relative;
+        bottom: 60vh;
+        left: 9vw;
+    }
+
+    .footer-left {
+        position: relative;
+        top: 50vh;
+        right: 9vw;
+    }
+    
+
+    .footer-right p {
+        width: 80vw;
+    }
+
+    .subscribe, form {
+        display: grid;
+    }
+
+    .btn-subscribe {
+        width: 30vw;
+        margin-top: 10px;
+        margin-left: 50vw;
+    }
+
+    .input-email {
+        width: 80vw;
+    }
+
+    .footer-left p {
+        width: 80vw;
     }
 
 
